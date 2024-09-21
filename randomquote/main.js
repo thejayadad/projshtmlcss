@@ -24,10 +24,3 @@ const quotes = [
         author: "Wayne Gretzky"
     }
 ];
-
-document.getElementById("new-quote").addEventListener("click", function() {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    const selectedQuote = quotes[randomIndex];
-    document.getElementById("quote").innerText = selectedQuote.quote;
-    document.getElementById("author").innerText = `— ${selectedQuote.author}`;
-});

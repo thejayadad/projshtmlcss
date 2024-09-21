@@ -24,17 +24,3 @@ body {
     margin-top: 100px;
     gap: 5px;
 }
-
-button {
-    padding: 5px 10px;
-    background-color: #2072c9;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #010509;
-}
