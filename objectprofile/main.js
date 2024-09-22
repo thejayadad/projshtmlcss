@@ -21,17 +21,15 @@ const users = [
     }
 ];
 
-const userCardsContainer = document.getElementById("user-cards-container");
 
-users.forEach(user => {
-    const card = document.createElement("div");
-    card.classList.add("card");
-    
+const userCardsContainer = document.getElementById('user-cards-container');
+users.forEach(user=> {
+    const card = document.createElement('div')
+    card.classList.add('card');
     card.innerHTML = `
         <img src="${user.image}" alt="${user.name}">
         <h2>${user.name}</h2>
         <p>${user.email}</p>
     `;
-
-    userCardsContainer.appendChild(card);
-});
+    userCardsContainer.appendChild(card)
+})
